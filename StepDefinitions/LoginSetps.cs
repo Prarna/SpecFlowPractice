@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 namespace SpecFlowPractice.StepDefinitions
 {
     [Binding]
-    public class LoginSetpDefinition
+    public class LoginSetps
     {
         private IWebDriver driver;
 
 
-        public LoginSetpDefinition(IWebDriver driver)
+        public LoginSetps(IWebDriver driver)
         {
             this.driver = driver;
         }
